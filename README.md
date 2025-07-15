@@ -61,3 +61,29 @@ EcoWalk/
 ├── style.css            # Styling & layout
 ├── script.js            # Functionality & API integrations
 └── README.md            # Project overview
+
+
+---
+
+## 📤 Share Example
+
+When the user clicks “Share”, a message like this is generated:
+
+> “I just walked 2.3 km and burned 80 calories using #EcoWalk! 🌱🚶‍♀️”
+
+You can share this message on:
+
+- 🐦 **Twitter**
+- 📱 **WhatsApp**
+- 📋 **Clipboard for any other app**
+
+---
+
+## 💻 How to Run Locally
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/ecowalk.git
+cd ecowalk
+
