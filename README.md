@@ -74,13 +74,3 @@ You can share this message on:
 - 📱 **WhatsApp**
 - 📋 **Clipboard for any other app**
 
----
-
-💻 How to Run Locally
-
-1. **Clone the Repository**
-
-```bash
-git clone https://github.com/your-username/ecowalk.git
-cd ecowalk
-
