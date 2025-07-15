@@ -74,3 +74,8 @@ You can share this message on:
 - 📱 **WhatsApp**
 - 📋 **Clipboard for any other app**
 
+---
+
+### 🖼️ Live Demo Screenshot
+
+![EcoWalk Screenshot](C:\Users\91808\Pictures\Screenshots\Screenshot 2025-07-15 111319.png)
