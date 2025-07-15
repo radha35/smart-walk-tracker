@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EcoWalk - Enhanced</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>🌿 EcoWalk</h1>
+  <p id="status">Choose a mode and start walking!</p>
+
+  <canvas id="map" width="300" height="300"></canvas>
+
+  <div class="controls">
+    <select id="modeSelect">
+      <option value="gps">Real GPS</option>
+      <option value="simulate">Simulate</option>
+    </select>
+
+    <select id="locationSelect" style="display: none;">
+      <option value="mumbai">Mumbai</option>
+      <option value="delhi">Delhi</option>
+      <option value="hyderabad">Hyderabad</option>
+    </select>
+
+    <input type="number" id="stepGoal" placeholder="Step Goal" />
+    <div id="goalProgressContainer">
+      <div id="goalProgress">0%</div>
+    </div>
+
+    <button id="startBtn">▶ Start Walk</button>
+    <button id="nextStepBtn" style="display: none;">🚶 Next Step</button>
+    <button id="stopBtn" style="display: none;">🛑 Stop Walk</button>
+    <button id="shareBtn" style="display: none;">📤 Share</button>
+  </div>
+
+  <div class="metrics">
+    <p><strong>Distance:</strong> <span id="distance">0</span> m</p>
+    <p><strong>Steps:</strong> <span id="steps">0</span></p>
+    <p><strong>Calories:</strong> <span id="calories">0</span> kcal</p>
+    <p><strong>Time:</strong> <span id="time">0s</span></p>
+  </div>
+
+  <p id="network-status"></p>
+
+  <h3>📊 Walk History</h3>
+  <canvas id="historyChart" width="300" height="200"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
