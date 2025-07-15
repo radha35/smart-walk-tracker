@@ -10,11 +10,12 @@ EcoWalk is a lightweight, user-friendly web app designed to promote healthy livi
 - **Real GPS** uses your actual device’s geolocation to track movement.
 - **Simulate Mode** lets you choose a city (e.g., Mumbai) and simulate walking using a "Next Step" button.
 - **Canvas Map** visually draws your walking path.
-- Tracks:
-  - ⏱ Time
-  - 🛣 Distance (in meters)
-  - 👣 Steps (calculated approx. 1 step per 0.75m)
-  - 🔥 Calories burned (0.04 kcal per step)
+
+### It Tracks:
+- ⏱ Time
+- 🛣 Distance (in meters)
+- 👣 Steps (calculated approx. 1 step per 0.75m)
+- 🔥 Calories burned (0.04 kcal per step)
 
 ---
 
@@ -53,18 +54,9 @@ EcoWalk is a lightweight, user-friendly web app designed to promote healthy livi
 
 ---
 
-## 📁 Project Structure
+## 📤 Share Example
 
-```bash
-EcoWalk/
-├── index.html           # Main UI
-├── style.css            # Styling & layout
-├── script.js            # Functionality & API integrations
-└── README.md            # Project overview
-
- 📤 Share Example
-
-When the user clicks “Share”, a message like this is generated:
+When the user clicks the **"Share"** button, a message like this is generated:
 
 > “I just walked 2.3 km and burned 80 calories using #EcoWalk! 🌱🚶‍♀️”
 
@@ -72,10 +64,19 @@ You can share this message on:
 
 - 🐦 **Twitter**
 - 📱 **WhatsApp**
-- 📋 **Clipboard for any other app**
+- 📋 **Copy to Clipboard** (to share in any app)
 
 ---
 
-### 🖼️ Live Demo Screenshot
+## 🧪 How to Run Locally
 
-![EcoWalk Screenshot](C:\Users\91808\Pictures\Screenshots\Screenshot 2025-07-15 111319.png)
+To run EcoWalk on your machine:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ecowalk.git
+
+# Navigate into the folder
+cd ecowalk
+
+# Open index.html in your browser
