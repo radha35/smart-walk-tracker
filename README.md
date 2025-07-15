@@ -62,10 +62,7 @@ EcoWalk/
 ├── script.js            # Functionality & API integrations
 └── README.md            # Project overview
 
-
----
-
-## 📤 Share Example
+ 📤 Share Example
 
 When the user clicks “Share”, a message like this is generated:
 
@@ -79,7 +76,7 @@ You can share this message on:
 
 ---
 
-## 💻 How to Run Locally
+💻 How to Run Locally
 
 1. **Clone the Repository**
 
